@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRMSuite">
+  <test thread-count="5" name="LOGIN Test">
+    <classes>
+      <class name="BaseTest"/>
+      <class name="LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test thread-count="5" name="ADMIN">
+    <classes>
+      <class name="AdminTest">
+       <methods>
+		    <exclude name="EditUser"/>
+	   </methods>
+	   </class>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Leave">
+    <classes>
+      <class name="LeaveTest">
+       <methods>
+		    <exclude name="SearchLeave"/>
+	   </methods>
+	   </class>
+    </classes>
+  </test> <!-- Test -->
+   
+</suite> <!-- Suite -->

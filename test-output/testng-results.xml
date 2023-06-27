@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-27T22:08:51 BDT" name="Default suite" finished-at="2023-06-27T22:09:26 BDT" duration-ms="35584">
+    <groups>
+    </groups>
+    <test started-at="2023-06-27T22:08:51 BDT" name="Default test" finished-at="2023-06-27T22:09:26 BDT" duration-ms="35584">
+      <class name="OrangeHRM.AdminTest">
+        <test-method signature="BaseLogin()[pri:0, instance:OrangeHRM.AdminTest@581ac8a8]" started-at="2023-06-27T22:08:51 BDT" name="BaseLogin" finished-at="2023-06-27T22:09:13 BDT" duration-ms="22095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BaseLogin -->
+        <test-method signature="UserCreate()[pri:0, instance:OrangeHRM.AdminTest@581ac8a8]" started-at="2023-06-27T22:09:13 BDT" name="UserCreate" finished-at="2023-06-27T22:09:26 BDT" depends-on-methods="OrangeHRM.AdminTest.BaseLogin" duration-ms="13363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCreate -->
+      </class> <!-- OrangeHRM.AdminTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
